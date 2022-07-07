@@ -114,3 +114,13 @@ section div p{
     font-weight: lighter;
     margin-top: 15px;
 }
+.sec3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+}
+.sec3 li p{
+    padding-left: 25px;
+}
+
