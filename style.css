@@ -1,6 +1,11 @@
+@font-face {
+    font-family: poppinsF;
+    src: url(Poppins-Medium.ttf)
+}
 *{
     margin: 0;
     padding: 0;
+    font-family: poppinsF;
 }
 header{
     background-image: linear-gradient(to bottom right, #9A2F00, #FFD78E);
@@ -122,5 +127,42 @@ section div p{
 }
 .sec3 li p{
     padding-left: 25px;
+}
+footer{
+    width: 1366px;
+    width: 768px;
+    background-color: #BD6831;
+}
+.fot1{
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+    margin: 0;
+}
+.fot1 h1{
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: white;
+}
+.fot1 p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+button{
+    width: 177px;
+    height: 48px;
+    background-color: #E2A766;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    background: rgba(226, 167, 102, 0.58);
+    border: none;
+    border-radius: 15px;
+    width: 310px;
+    height: 48px;
 }
 
