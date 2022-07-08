@@ -127,26 +127,33 @@ section div p{
 }
 .sec3 li p{
     padding-left: 25px;
+    margin-bottom: 20px;
 }
 footer{
-    width: 1366px;
-    width: 768px;
+    display: flex;
+    width: 100%;
+    height: 100%;
     background-color: #BD6831;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .fot1{
     padding: 50px;
-    width: 500px;
-    height: 300px;
+    width: 50%;
+    height: 100%;
     margin: 0;
 }
 .fot1 h1{
     font-size: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     color: white;
 }
 .fot1 p{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 20px;
+}
+.lead{
+    margin-top: 50px;
 }
 button{
     width: 177px;
@@ -164,5 +171,27 @@ input{
     border-radius: 15px;
     width: 310px;
     height: 48px;
+}
+.fot2{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.fot2 ul{
+    flex-wrap: wrap;
+}
+.box2{
+    width: 206px;
+    height: 173px;
+    border: 2px solid #c4c4c4;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 33px;
+}
+.box2 h2{
+    margin-top: 5px;
+}
+.box2 p{
+    margin-top: 5px;
 }
 
