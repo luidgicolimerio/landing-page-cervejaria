@@ -175,6 +175,7 @@ input{
     font-weight: bold;
     font-size: 20px;
     text-decoration-color: rgba(255, 255, 255, 0.62);
+    outline: none;
 }
 .fot2{
     display: flex;
@@ -183,6 +184,9 @@ input{
 }
 .fot2 ul{
     flex-wrap: wrap;
+}
+.fot2 ul h2{
+    text-transform: uppercase;
 }
 .box2{
     width: 206px;
