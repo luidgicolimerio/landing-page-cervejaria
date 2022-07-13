@@ -131,10 +131,11 @@ section div p{
     flex-direction: column;
     text-align: center;
     margin-top: 25px;
+    align-items: center;
+    margin-bottom: 25px;
 }
 .sec3 li p{
     padding-left: 25px;
-    margin-bottom: 20px;
 }
 footer{
     display: flex;
@@ -149,6 +150,7 @@ footer{
     width: 50%;
     height: 100%;
     margin: 0;
+    flex-direction: column;
 }
 .fot1 h1{
     font-size: 32px;
@@ -171,6 +173,10 @@ button{
     color: white;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;   
+}
+button:hover{
+    opacity: 0.5;
 }
 input{
     background: rgba(226, 167, 102, 0.58);
@@ -187,10 +193,7 @@ input{
 .fot2{
     display: flex;
     width: 50%;
-    height: 100%;
-}
-.fot2 ul{
-    flex-wrap: wrap;
+    height: 50%;
 }
 .fot2 ul h2{
     text-transform: uppercase;
@@ -200,7 +203,7 @@ input{
     height: 173px;
     border: 2px solid #c4c4c4;
     padding: 15px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 33px;
 }
 .box2 h2{
@@ -212,6 +215,10 @@ input{
 
 /*mobile*/
 @media(max-width: 992px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
     div p{
         font-size: 14px;
     }
@@ -234,6 +241,42 @@ input{
     .size{
         margin: 0;
     }
-
+    .sec1 h1{
+        font-size: 38px;
+    }
+    .sec1 p{
+        font-size: 18px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .fot1{
+        flex-wrap: nowrap;
+    }
+    button{
+        width: 25%;
+        height: 38px;
+        font-size: 10px;
+        padding: 4px;
+    }
+    input{
+        width: 65%;
+        height: 28px;
+        padding: 4px;
+        font-size: 16px;  
+    }
+    .box2{
+        width: 156px;
+        height: 123px;
+    }
+    .box2 h2{
+        font-size: 18px;
+    }
+    .box2 p{
+        font-size: 12px;
+    }
+    .box2 img{
+        width: 5vh;
+        height: 5vh;
+    }
 }
-
